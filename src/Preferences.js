@@ -31,6 +31,7 @@ define(function (require, exports, module) {
         "commitAllShortcut": {              "type": "string",            "value": null              },
         "bashShortcut": {                   "type": "string",            "value": null              },
         "pushShortcut": {                   "type": "string",            "value": null              },
+        "FTPpushShortcut": {                   "type": "string",            "value": null              },
         "pullShortcut": {                   "type": "string",            "value": null              },
         "gotoPrevChangeShortcut": {         "type": "string",            "value": null              },
         "gotoNextChangeShortcut": {         "type": "string",            "value": null              },
