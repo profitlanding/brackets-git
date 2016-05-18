@@ -1216,6 +1216,11 @@ define(function (require, exports) {
         CommandManager.register(Strings.PUSH_SHORTCUT, PUSH_CMD, EventEmitter.emitFactory(Events.HANDLE_PUSH));
         KeyBindingManager.addBinding(PUSH_CMD, Preferences.get("pushShortcut"), brackets.platform);
 
+
+        CommandManager.register(Strings.FTPPUSH_SHORTCUT, FTPPUSH_CMD, EventEmitter.emitFactory(Events.HANDLE_FTPPUSH));
+        KeyBindingManager.addBinding(FTPPUSH_CMD, Preferences.get("FTPpushShortcut"), brackets.platform);
+
+
         CommandManager.register(Strings.PULL_SHORTCUT, PULL_CMD, EventEmitter.emitFactory(Events.HANDLE_PULL));
         KeyBindingManager.addBinding(PULL_CMD, Preferences.get("pullShortcut"), brackets.platform);
 
