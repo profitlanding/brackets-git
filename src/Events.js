@@ -37,6 +37,9 @@ define(function (require, exports) {
     exports.HANDLE_GIT_COMMIT = "handle.git.commit";
     exports.HANDLE_FETCH = "handle.fetch";
     exports.HANDLE_PUSH = "handle.push";
+
+    exports.HANDLE_FTPPUSH = "handle.ftppush";
+
     exports.HANDLE_PULL = "handle.pull";
     exports.HANDLE_REMOTE_PICK = "handle.remote.pick";
     exports.HANDLE_REMOTE_DELETE = "handle.remote.delete";
